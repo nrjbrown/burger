@@ -1,13 +1,11 @@
-### Schema
-DROP DATABASE IF EXISTS 'burgers_db';
-CREATE DATABASE 'burgers_db'; 
-USE 'burgers_db'; 
+create DATABASE burgers_db;
+For development;
+USE burgers_db;
+FROM https://burgeration.herokuapp.com/ 
+
 
 CREATE TABLE burgers
 (
-    id int NOT NULL AUTO_INCREMENT, 
-    burger_name varchar(255) NOT NULL, 
-    devoured BOOLEAN DEFAULT false, 
-    PRIMARY KEY (id)
-); 
-
+  id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  burger_name varchar(125) NOT NULL,
+  devoured BOOLEAN DEFAULT false

@@ -1,4 +1,8 @@
-INSERT INTO burgers (name) VALUES ('Double Cheese'); 
-INSERT INTO burgers (name) VALUES ('Fish Burger'); 
-INSERT INTO burgers (name, devoured) VALUES ('JR Chicken', false); 
-INSERT INTO burgers (name, devoured) VALUES ('Mac Happy', true); 
+INSERT INTO burgers(burger_name) VALUES
+('Fresh Burger'),
+('Atomic Burger'),
+('New Mexico Burger'),
+('Philly Cheese Burger'),
+('Mon Ami Burger'),
+('Gunslinger Burger'),
+('The Dude Burger');
