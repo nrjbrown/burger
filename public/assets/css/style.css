@@ -1,0 +1,13 @@
+/*@import "../../../node_modules/bulma/css/bulma.css";*/
+.hero.is-primary.is-bold {
+    background: url("../images/burger.jpg") no-repeat fixed;
+    background-size: cover;
+    opacity: 0.65;
+  }
+  .is-danger, warning{
+    display: none;
+  }
+  
+  ol.list {
+    padding-left: 20px;
+  }
